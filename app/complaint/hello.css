@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+.containery {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 370px;
+}
+
+h4 {
+    text-align: center;
+    color:#333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.howdy {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border-top: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.howdy:hover {
+    background-color: #07360a;
+}
